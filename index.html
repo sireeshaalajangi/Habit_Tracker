@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Habit Tracker</h1>
+    <div class="box">
+        <select id="preset">
+            <option value="Gym">Gym</option>
+             <option value="Yoga">Yoga</option>
+              <option value="Reading">Reading</option>
+               <option value="Study">Study</option>
+                <option value="Coding">Coding</option>
+                 <option value="Project">Project</option>
+        </select>
+       <input type="text" id="custom" placeholder="Enter the activity you need">
+       <button onclick="addActivity()">Add</button>
+    </div>
+
+    <h3 id="warning" style="color:red;"></h3>
+
+    <ul id="list"></ul>
+
+    <h2 id="summary"></h2>
+    <h3 id = "count"></h3>
+
+    <button onclick="resetDay()">Reset Day</button>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
