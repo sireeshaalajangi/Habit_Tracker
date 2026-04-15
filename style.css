@@ -1,0 +1,33 @@
+
+body{
+    font-family: Arial;
+    text-align: center;
+    background: white;
+}
+h1{
+    color:#333;
+}
+.box{
+    margin:20px;
+}
+input,select{
+    padding: 8px;
+    margin: 5px;
+}
+button{
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+li{
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width:320px;
+    list-style: none;
+    box-shadow: 0 0 5px gray;
+}
+.done{
+    text-decoration:line-through;
+    color:green;
+}
